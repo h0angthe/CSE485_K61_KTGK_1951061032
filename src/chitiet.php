@@ -41,8 +41,8 @@
                         echo '<td>'.$row['drate'].'</td>';
                         echo '<td>'.$row['wrate'].'</td>';
                         echo '<td>'.$row['status'].'</td>';
-                        echo '<td> <a href="#" class="btn btn-primary">Update</a></td>';
-                        echo '<td> <a href="#" class="btn btn-primary">Delete</a></td>';
+                        echo '<td> <a href="updatecar.php" class="btn btn-primary">Update</a></td>';
+                        echo '<td> <a href="delete.php?idcar='.$row['vehicle_id'].'" class="btn btn-primary">Delete</a></td>';
                         echo '</tr>';
                     }
                 }
