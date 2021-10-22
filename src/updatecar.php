@@ -49,7 +49,7 @@ include 'config.php';
     $status = ($_POST['status']);
 
     $sql = "Update cars set
-    license_no='$license',model =' $model',year='$year',ctype ='$ctype'
+    license_no='$license',model =' $model',year='$year',ctype ='$ctype',
    drate='$drate',wrate='$wrate',status='$status' where vehicle_id ='$ID'";
     $res = mysqli_query($conn, $sql)  ;
     echo $sql;
